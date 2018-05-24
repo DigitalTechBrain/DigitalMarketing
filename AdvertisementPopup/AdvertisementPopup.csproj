@@ -68,9 +68,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdvertisementPopup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdvertisementPopup.aspx.cs">
+      <DependentUpon>AdvertisementPopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvertisementPopup.aspx.designer.cs">
+      <DependentUpon>AdvertisementPopup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
